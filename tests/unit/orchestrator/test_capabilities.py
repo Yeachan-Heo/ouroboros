@@ -114,7 +114,7 @@ _REQUIRED_OUROBOROS_TOOL_METADATA_FIELDS = frozenset(
 _EXPECTED_OUROBOROS_REQUIRED_CONTEXT_KEYS = {
     "ouroboros_ac_tree_hud": ("session_id", "cursor"),
     "ouroboros_auto": (),
-    "ouroboros_brownfield": (),
+    "ouroboros_brownfield": ("indices",),
     "ouroboros_cancel_execution": ("execution_id",),
     "ouroboros_cancel_job": ("job_id",),
     "ouroboros_checklist_verify": ("session_id", "seed_content", "artifact"),
